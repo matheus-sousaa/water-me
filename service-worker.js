@@ -1,11 +1,11 @@
 const cacheName = 'water_me-pwa-v1.0';
 
 // Armazena todos os arquivos no cache atual
-self.addEventListener('install', function (event) {
+/*self.addEventListener('install', function (event) {
   caches.open(cacheName).then((cache) => {
     cache.addAll([]);
   });
-});
+});*/
 
 // Recupera todos os nomes de cache e apaga aqueles
 // que forem diferentes do cache atual
