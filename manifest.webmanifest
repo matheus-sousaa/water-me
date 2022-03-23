@@ -1,0 +1,20 @@
+{
+  "name": "Water Me",
+  "short_name": "Water Me",
+  "start_url": "https://water-me.sapao.repl.co/",
+  "display": "standalone",
+  "theme_color": "#289dd2",
+  "background_color": "#26404d",
+  "icons": [
+    {
+      "src": "assets/logo-512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo-192px.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
