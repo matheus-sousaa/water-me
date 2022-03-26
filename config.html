@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet"href="styles/config.css"/> 
       <link rel="stylesheet"href="styles/global.css"/> 
+      <link rel="stylesheet"href="styles/buttonSwitch.css"/>
       <link rel="icon" type="image/x-icon" href="assets/icon.png" />
       <link rel="manifest" href="manifest.webmanifest" />
       <script src="./javascript/global.js"></script>
@@ -21,23 +22,25 @@
       <form onsubmit="handlerSubmit(event)">
         <div id="configCopos">
         <p class="textoCopos">Quantos copos deseja tomar por dia?</p>
-        <input class="inputCopos" type="number" value="0" min="0" max="20"/>
+        <input class="inputCopos" type="number" min="0" max="20"/>
         <p class="textoCopos">Quantos mililitros(ml) tem cada copo?</p>
         <input class="inputCopos" type="number" min="0">
       </div>
       <h2>Notificações</h2>
       <p>Escolha em quais momentos do dia deseja receber lembretes para beber água:</p>
-      <input id="notificacoes" type="text" name="notificacoes" list="defaultOpcoes">
-      <datalist id="defaultNumbers">
-        <option value="Manhã">
-        <option value="Manhã, Tarde">
-        <option value="Manhã, Tarde, Noite">
-        <option value="Tarde">
-        <option value="Tarde, Noite">
-        <option value="Noite">
-      </datalist>
+      <select name="opcoesNotificacoe" id="notificacoes">
+        <option value="Manhã">Manhã</option>
+        <option value="Manhã, Tarde">Manhã, Tarde</option>
+        <option value="Manhã, Tarde, Noite">Manhã, Tarde, Noite</option>
+        <option value="Tarde">Tarde</option>
+        <option value="Tarde, Noite">Tarde, Noit</option>
+        <option value="Noite">Noite</option>
+      </select>
       <h2>Theme</h2>
-      <input type="switch"/> 
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label> 
       <footer class="configBar">
         <button type="submit">Salvar Configurações</button>
       </footer>

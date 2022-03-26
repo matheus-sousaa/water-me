@@ -43,3 +43,10 @@ input.inputCopos::-webkit-inner-spin-button {
 input.inputCopos[type=number] {
   -moz-appearance: textfield;
 }
+#notificacoes {
+  margin-top: 0.4rem;
+  margin-left: 0.3rem;
+  width: 9.3rem;
+  height: 2rem;
+  text-align: center;
+}

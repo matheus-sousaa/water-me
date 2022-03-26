@@ -4,6 +4,7 @@ const htmlFiles = ['/index.html', '/config.html', '/dia-semana.html', '/hoje.htm
 const cssFiles = [
   '/styles/global.css',
   '/styles/config.css',
+  '/javascript/buttonSwitch.css',
 ];
 
 const jsFiles = [
