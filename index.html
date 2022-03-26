@@ -9,6 +9,7 @@
       <link rel="apple-touch-icon" href="assets/logo.png" />
       <link rel="icon" type="image/x-icon" href="assets/icon.png" />
       <script src="./javascript/global.js"></script>
+      <script src="./javascript/progressoDia.js"></script>
       <title>Home</title>
     </head>
     <body>
@@ -17,16 +18,16 @@
         </header>
       <div class="diaProgresso">
         <h2>Hoje</h2>
-        <button class="buttonDiaProgresso" onclick="window.location.href='/hoje.html'">Falta muito para matar minha sede? <img src="assets/seta-direita.svg"/> </button>
+        <button class="buttonDiaProgresso" disabled onclick="window.location.href='/hoje.html'">Falta muito para matar minha sede? <img src="assets/seta-direita.svg"/> </button>
         <h3 id="barraProgresso">Progresso</h3>
       </div>
       <div class="diaProgresso">
         <h2>Ontem</h2>
-        <button class="buttonDiaProgresso" onclick="window.location.href='/ontem.html'">Quanto eu bebi? <img src="assets/seta-direita.svg"/></button>
+        <button class="buttonDiaProgresso" disabled onclick="window.location.href='/ontem.html'">Quanto eu bebi? <img src="assets/seta-direita.svg"/></button>
       </div>
       <div class="semanaProgresso">
         <h2>Semana</h2>
-        <button onclick="window.location.href='/dia-semana.html'">"Calendário"</button>
+        <button onclick="window.location.href='/dia-semana.html'" disabled>"Calendário"</button>
       </div>
       <footer class="configBar">
       <button onclick="window.location.href='/config.html'">Configurações</button>

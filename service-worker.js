@@ -4,12 +4,14 @@ const htmlFiles = ['/index.html', '/config.html', '/dia-semana.html', '/hoje.htm
 const cssFiles = [
   '/styles/global.css',
   '/styles/config.css',
-  '/javascript/buttonSwitch.css',
+  '/styles/buttonSwitch.css',
+  '/styles/paginaDia.css',
 ];
 
 const jsFiles = [
   '/javascript/global.js',
   '/javascript/config.js',
+  '/javascript/progressoDia.js',
 ];
 
 const assetsFiles = [
