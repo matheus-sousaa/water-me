@@ -8,6 +8,8 @@
       <link rel="stylesheet"href="styles/global.css"/> 
       <link rel="icon" type="image/x-icon" href="assets/icon.png" />
       <link rel="manifest" href="manifest.webmanifest" />
+      <script src="./javascript/global.js"></script>
+      <script src="./javascript/config.js"></script>
       <title>Configurações</title>
     </head>
     <body>
@@ -16,11 +18,29 @@
         <img width="85px" src="assets/logo-header.png"/>
       </header>
       <h1>Configurações</h1>
-      <div id="configCopos">
-        
+      <form onsubmit="handlerSubmit(event)">
+        <div id="configCopos">
+        <p class="textoCopos">Quantos copos deseja tomar por dia?</p>
+        <input class="inputCopos" type="number" value="0" min="0" max="20"/>
+        <p class="textoCopos">Quantos mililitros(ml) tem cada copo?</p>
+        <input class="inputcopos" type="number" min="0">
       </div>
+      <h2>Notificações</h2>
+      <p>Escolha em quais momentos do dia deseja receber lembretes para beber água:</p>
+      <input id="notificacoes" type="text" name="notificacoes" list="defaultOpcoes">
+      <datalist id="defaultNumbers">
+        <option value="Manhã">
+        <option value="Manhã, Tarde">
+        <option value="Manhã, Tarde, Noite">
+        <option value="Tarde">
+        <option value="Tarde, Noite">
+        <option value="Noite">
+      </datalist>
+      <h2>Theme</h2>
+      <input type="switch"/> 
       <footer class="configBar">
-      <button onclick="">Salvar Configurações</button>
+        <button type="submit">Salvar Configurações</button>
       </footer>
+      </form>
     </body>
 </html>
