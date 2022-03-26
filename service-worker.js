@@ -11,7 +11,8 @@ const cssFiles = [
 const jsFiles = [
   '/javascript/global.js',
   '/javascript/config.js',
-  '/javascript/progressoDia.js',
+  '/javascript/home.js',
+  '/javascript/pagina-dia.js',
 ];
 
 const assetsFiles = [
