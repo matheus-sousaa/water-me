@@ -1,6 +1,6 @@
 div#configCopos {
   width: auto;
-  height: 9.5rem;
+  height: 8.5rem;
   margin-top: 1rem;
   border: 0.2rem solid #37392e;
   background-color: #767474;
@@ -23,9 +23,14 @@ body p {
 }
 
 .inputCopos {
-  margin-top: 0.5rem;
+  margin-top: 0.1rem;
   width: 1.9rem;
   margin-left: 0.7rem;
+}
+
+input.inputCopos:last-of-type{
+  width: 2.5rem;
+}
 
 /* Chrome, Safari, Edge, Opera */
 input.inputCopos::-webkit-outer-spin-button,
