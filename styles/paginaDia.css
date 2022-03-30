@@ -19,6 +19,7 @@ body div {
   bottom: 5rem;
   left: 0;
   justify-content: center;
+  align-items: center;
 }
 
 body div button {
@@ -29,4 +30,5 @@ body div button {
 
 body div span {
   width: 2rem;
+  text-align: center;
 }
