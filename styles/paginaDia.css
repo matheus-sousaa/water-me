@@ -6,3 +6,27 @@ body h1 {
 body p {
   margin-top: 1.5rem;
 }
+
+body ul {
+  display: flex;
+  list-style: none;
+}
+
+body div {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 5rem;
+  left: 0;
+  justify-content: center;
+}
+
+body div button {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.3rem;
+}
+
+body div span {
+  width: 2rem;
+}

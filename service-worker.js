@@ -1,5 +1,5 @@
 const cacheName = 'water_me-pwa-v1.0';
-const htmlFiles = ['/index.html', '/config.html', '/dia-semana.html', '/hoje.html', '/ontem.html'];
+const htmlFiles = ['/index.html', '/config.html', '/dia.html'];
 
 const cssFiles = [
   '/styles/global.css',
