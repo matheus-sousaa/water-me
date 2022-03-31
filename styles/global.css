@@ -12,6 +12,9 @@ body {
   margin-right: 1.5rem;
   height: 100%;
 }
+body h2 {
+  color: #0d0660;
+}
 
 html {
   height: 100%;
@@ -62,10 +65,10 @@ div.semanaProgresso button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.BdiaProgresso button img {
-  
+  border-radius: 1rem;
+  border-color: #0d0660;
+  background-color: #a5d8f8;
+  color: #0d0660;
 }
 
 .configBar {
@@ -82,10 +85,13 @@ div.semanaProgresso button {
 
 #barraProgresso {
   margin-top: 0.8rem;
+  color: #0d0660;
 }
 
 footer button {
   padding: 0.4rem 1.5rem;
+  border-radius: 0.5rem;
+  border-color: #0d0660;
 }
 
 .botaoVoltar {

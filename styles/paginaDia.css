@@ -8,6 +8,7 @@ body p {
 }
 
 body ul {
+  margin-top: 0.7rem;
   display: flex;
   list-style: none;
 }
@@ -16,19 +17,22 @@ body div {
   width: 100%;
   display: flex;
   position: fixed;
-  bottom: 5rem;
+  bottom: 12rem;
   left: 0;
   justify-content: center;
   align-items: center;
 }
 
 body div button {
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
   padding: 0.3rem;
+  border-radius: 2rem;
 }
 
 body div span {
+  margin: 0.4rem;
+  font-size: 2rem;
   width: 2rem;
   text-align: center;
 }
