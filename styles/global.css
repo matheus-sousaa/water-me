@@ -92,6 +92,8 @@ footer button {
   padding: 0.4rem 1.5rem;
   border-radius: 0.5rem;
   border-color: #0d0660;
+  background-color: #a5d8f8;
+  color: #0d0660;
 }
 
 .botaoVoltar {
