@@ -67,9 +67,16 @@ div.semanaProgresso button {
   align-items: center;
   justify-content: space-between;
   border-radius: 1rem;
+}
+
+.buttonDiaProgresso:not(:disabled) {
   border-color: #0d0660;
   background-color: #a5d8f8;
   color: #0d0660;
+}
+
+button.buttonDiaProgressso:disabled, buttonDiaProgressso[disabled] {
+  background-color: grey;
 }
 
 .configBar {
