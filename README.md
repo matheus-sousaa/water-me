@@ -23,7 +23,14 @@
 
 <p>
   O objetivo da aplicação é ajudar o usuário a lembrar de tomar água durante o seu dia a dia. Ela possui um sistema capaz de receber e conter as infomações sobre o recipiente que o usuário irá utilizar para se tratar no dia a dia, além de, escolher em quais períodos do dia ele deseja receber notificações.
-  Com estas informações o aplicativo conseguirá lembrar e informar seus usuários sobre o seu progresso de hidratação do dia ou até mesmo seu desempenho na semana. 
+  Com estas informações o aplicativo conseguirá lembrar e informar seus usuários sobre o seu progresso de hidratação do dia ou até mesmo seu desempenho na semana em que ele está. 
+</p>
+
+<a name="user-data" />
+<h2 align="center"><b>Explicação dos dados do usuário</b></h2>
+
+<p>
+  A aplicação não irá utilizar muitos dados do usuário, ela precisará inicialmente apenas de 
 </p>
 
 <a name="questions" />
@@ -43,7 +50,6 @@ A aplicação armazena e usa de forma relevante dados complexos do usuário?
 
 <code><b>R: Sim, ela usa.</b></code>
   
-
 A aplicação possui um manifesto para instalação no dispositivo do usuário? 
 
 <code><b>R: Sim, ela possui.</b></code>
@@ -54,12 +60,11 @@ A aplicação possui um service worker que permite o funcionamento off-line?
   
 O código da minha aplicação possui comentários explicando cada operação? 
 
-<code><b>R: Não, o aplicativo não será uma aplicação muito complexa. Acredito que não seja necessário colocar explicações no código, tendo em vista que ele não possui complexidades, isto acabaria por "poluir" demais o código da aplicação e sem necessidade. Basta escrever o código de forma mais clara possível para que ele seja facilmente entendido.</b></code>
+<code><b>R: Não, o aplicativo não será uma aplicação muito complexa. Acabou que não coloquei explicações no código, tendo em vista que ele não possui complexidades, isto acabaria por "poluir" demais o código da aplicação e sem necessidade. Cada parte do código é possível de analisar o que foi escrito e entender como foi feito.</b></code>
 
 A aplicação está funcionando corretamente? 
 
-<code><b>R: Ainda não. Eu não tenho conhecimentos de programação web, então estou tendo bastante dificuldade para desenvolver a aplicação. Estou contando com a ajuda de um colega para conseguir realizar as partes mais avançadas do código, o que dificultada bastante no seu desenvolvimento. O período que tive para fazer a aplicação também foi bem curto, menos de uma semana.</b></code>
-
+  <code><b>R: Ainda não. Eu não tenho conhecimentos de programação web, então estou tendo bastante dificuldade para desenvolver a aplicação. Estou contando com a ajuda de um colega para conseguir realizar as partes mais avançadas do código, o que dificultada bastante no seu desenvolvimento. Estive tentando pesquisar sobre as mecânicas sozinho para conseguir desenvolver mais do código, porém, não encontrava o que precisa e não conseguia fazer sozinho. Acabou que o colega que estava me ajudando, teve alguns problemas e ficou um tempo sem conseguir me ajudar.</b></code>
 
 <a name="download" />
 <h2 align="center"><b>Como Baixar?</b></h2>
