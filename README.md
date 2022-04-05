@@ -32,13 +32,34 @@
 ### Tela 1 - Home
 
 <p>
-  Tela principal do aplicativo. Através dela será possível acompanhar seus progressos e desempenhos dos dias da semana, além de definir as configurações. 
+  Tela principal do aplicativo, alcançada após abrir o mesmo. Através dela será possível acompanhar seus progressos e desempenhos dos dias da semana, além de definir as configurações. 
   
-  O usuário pode acessar o progresso dele do dia em que ele se encontra, ou do dia anterior, clicando no botão "Falta muito para matar minha sede?" ou o botão "Quanto eu bebi?"; respectivamente. Ao clicar em um dos botões, ele encaminhará o usuário para o que seriam a "Tela 4,5 e 6 - Progresso do dia". Na tela do progresso do seu dia atual, ele conseguirá manipular quantos copos ele já tomou no dia para que o aplicativo consiga salvar estes dados localmente e apresenta-los depois na tela do dia de "Ontem" ou de outro dia da "Semana".
+  O usuário pode acessar o progresso dele do dia em que ele se encontra, ou do dia anterior, clicando no botão "Falta muito para matar minha sede?" ou o botão "Quanto eu bebi?"; respectivamente. Ao clicar em um dos botões, ele encaminhará o usuário para o que seriam a "Tela 3,4 e 5 - Progresso do dia". Na tela do progresso do seu dia atual, ele conseguirá manipular quantos copos ele já tomou no dia para que o aplicativo consiga salvar estes dados localmente e apresenta-los depois na tela do dia de "Ontem" ou de outro dia da "Semana".
 
   A seção de "Semana" será capaz de encaminhar o usuário para o dia da semana que ele escolher, possibilitando de observar o progresso de um dos dias.
   
-  Para que o usuário consiga iniciar o uso do aplicativo e salvar seus progressos, ele precisará definir as configurações básicas através do botão "Configurações". Este botão encaminhará o usuário para a "Tela 3 - Configurações".
+  Para que o usuário consiga iniciar o uso do aplicativo, habilitar os botões do progresso do dia e salvar seus progressos, ele precisará definir as configurações básicas através do botão "Configurações". Este botão encaminhará o usuário para a "Tela 2 - Configurações".
+</p>
+
+### Tela 2 - Configurações
+
+<p>
+  Tela alcançada ao clicar no botão "Configurações". Para começar a utilizar o aplicativo, obrigatoriamente o usuário precisará acessar esta tela para definir suas configurações iniciais. 
+  Os primeiros campos servem para o usuário definir quantos copos, ou outro recipiente, ele vai tomar por dia e quantos mililitros vão possuir neste recipiente; respectivamente.
+  Na parte de baixo das configurações, o usuário será capaz de definir os períodos do dia em que ele vai receber uma notificação, lembrando que ele deve beber água. Além da opção de notificação, o usuário poderá alterar o "Thema" da aplicação, possibilitando deixar ela mais clara ou mais escura.
+</p>
+
+### Tela 3 - Progresso do dia de Hoje
+
+<p>
+  Tela alcançada após o usuário clicar no botão "Falta muito para matar minha sede?". Nela será possível o usuário visualizar quantos copos ele já tomou e quantos ele precisa tomar ainda. 
+  O próprio usuário fica responsável por controlar os copos já tomados, podendo acrescentar um copo na seção dos "Tomados", através do botão "+" ou voltando um copo para a seção de "Falta tomar" através do botão "-".
+</p>
+
+### Telas 4 e 5
+
+<p>
+  São as telas responsáveis por apresentar o progresso que os usuários tiveram durante a semana. Nela não será possível manipular os dados, apenas observar o que foi realizado no dia.
 </p>
 
 <a name="user-data" />
