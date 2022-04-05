@@ -76,7 +76,7 @@ div.semanaProgresso button {
 }
 
 button.buttonDiaProgressso:disabled, buttonDiaProgressso[disabled] {
-  background-color: grey;
+  background-color: #cfe8f7;
 }
 
 .configBar {

@@ -72,7 +72,7 @@ self.addEventListener('activate', (e) => {
 // Tenta servir o arquivo do cache atual. Se não for possível,
 // baixa o recurso da web e o armazena localmente, antes de entregar
 // uma cópia para o usuário.
-self.addEventListener('fetch', function (event) {
+/*self.addEventListener('fetch', function (event) {
   let response = caches.open(cacheName).then((cache) => {
     return cache.match(event.request).then((resource) => {
       if (resource) return resource;
@@ -84,3 +84,4 @@ self.addEventListener('fetch', function (event) {
   });
   event.respondWith(response);
 });
+*/
