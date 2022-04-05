@@ -26,11 +26,28 @@
   Com estas informações o aplicativo conseguirá lembrar e informar seus usuários sobre o seu progresso de hidratação do dia ou até mesmo seu desempenho na semana em que ele está. 
 </p>
 
+<a name="screens" />
+<h2 align="center">Descrição das telas</h2>
+
+### Tela 1 - Home
+
+<p>
+  Tela principal do aplicativo. Através dela será possível acompanhar seus progressos e desempenhos dos dias da semana, além de definir as configurações. 
+  
+  O usuário pode acessar o progresso dele do dia em que ele se encontra, ou do dia anterior, clicando no botão "Falta muito para matar minha sede?" ou o botão "Quanto eu bebi?"; respectivamente. Ao clicar em um dos botões, ele encaminhará o usuário para o que seriam a "Tela 4,5 e 6 - Progresso do dia". Na tela do progresso do seu dia atual, ele conseguirá manipular quantos copos ele já tomou no dia para que o aplicativo consiga salvar estes dados localmente e apresenta-los depois na tela do dia de "Ontem" ou de outro dia da "Semana".
+
+  A seção de "Semana" será capaz de encaminhar o usuário para o dia da semana que ele escolher, possibilitando de observar o progresso de um dos dias.
+  
+  Para que o usuário consiga iniciar o uso do aplicativo e salvar seus progressos, ele precisará definir as configurações básicas através do botão "Configurações". Este botão encaminhará o usuário para a "Tela 3 - Configurações".
+</p>
+
 <a name="user-data" />
 <h2 align="center">Explicação dos dados do usuário</h2>
 
 <p>
-  A aplicação irá manipular poucos dados, apesar de mante-los salvos para cada dia da semana. Ela precisará
+  A aplicação irá manipular poucos dados, apesar de mante-los salvos para cada dia da semana. Ela precisará saber quantos copos, ou outro recipiente, a pessoa deseja tomar por dia; quantos mililítros possui neste recipiente e em quais períodos do dia ela deseja receber notificações para beber água.
+  <br/>
+  Após definido estes 3 dados, o aplicativo permitirá que a pessoa acesse seu progresso do dia para ir acrescentando ou diminuindo quantos copos ela tomou naquele dia. Durante o dia em que ela está, além de poder manipular os copos já tomados, a aplicação apresentará uma barra com seu progresso do dia. Ao final do dia o aplicativo armazerá o resultado de copos tomados, quantos copos faltaram e a barra de progresso do dia, para que ela consiga acessar seu resultado do dia em questão durante a semana.
 </p>
 
 <a name="questions" />
