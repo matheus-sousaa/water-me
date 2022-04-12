@@ -11,5 +11,6 @@ window.addEventListener("load",() => {
       periodNotification:periodNotification
     }
     localStorage.setItem("config", JSON.stringify(config))
+    window.location.reload()
   }
 })

@@ -19,10 +19,14 @@
       </header>
       <h1>Hoje</h1>
       <p>Faltam tomar <span id="cupsNumber"></span> copos hoje:</p>
-      <ul id="fullCups"></ul>
+      <div class="allCups">
+        <ul id="fullCups"></ul>
+      </div>
       <p>Você já tomou <span id="cupsNumber"></span> copos hoje:</p>
+      <div class="allCups">
       <ul id="emptyCups"></ul>
-      <div>
+      </div>
+      <div id="buttonDiv">
         <button onclick="less()" id="lessButton" disabled>-</button>
         <span>0</span>
         <button onclick="plus()" id="plusButton">+</button>
