@@ -11,6 +11,7 @@ body ul {
   margin-top: 0.7rem;
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 #buttonDiv {
